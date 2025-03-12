@@ -1,6 +1,6 @@
-# MLLA-UNet
+# U-MLLA+
 
-The codes for the work "MLLA-UNet: Mamba-like Linear Attention in an Efficient U-Shape Model for Medical Image Segmentation". 
+The codes for the work "U-MLLA+: A Cognitive-Inspired Enhancement of Linear Attention for Medical Image Segmentation". 
 
 ## 1. Pretrained Models: You can choose a pretrained model based on your preference.
 
@@ -24,7 +24,7 @@ Ref: [MLLA Official Implementation]
 ### Preprocessing:
 
 Ref: [nnUNet](https://github.com/MIC-DKFZ/nnUNet)
-Detailed procedure: [link](https://github.com/csyfjiang/MLLA-UNet/blob/main/datasets/README.md)
+Detailed procedure: [link](https://github.com/csyfjiang/U-MLLA+/blob/main/datasets/README.md)
 
 Please follow the above procedure from the scratch, you are not recommended use the preprocessed data from the other work directly, otherwise it would get the worse results.
 
