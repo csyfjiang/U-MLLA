@@ -1,6 +1,6 @@
-# U-MLLA+
+# U-MLLA
 
-The codes for the work "U-MLLA+: A Cognitive-Inspired Enhancement of Linear Attention for Medical Image Segmentation". 
+The codes for the work "U-MLLA: A Cognitive-Inspired Enhancement of Linear Attention for Medical Image Segmentation". 
 
 ## 1. Pretrained Models: You can choose a pretrained model based on your preference.
 
@@ -54,3 +54,14 @@ sh test.sh
 * [MLLA](https://github.com/LeapLabTHU/MLLA)
 
 
+## Cite
+
+If you find our project helpful, please cite us!
+```Bibtex
+@article{jiang2024mllaunet,
+  title   = {MLLA-UNet: Mamba-like Linear Attention in an Efficient U-Shape Model for Medical Image Segmentation},
+  author  = {Yufeng Jiang and Zongxi Li and Xiangyan Chen and Haoran Xie and Jing Cai},
+  year    = {2024},
+  journal = {arXiv preprint arXiv: 2410.23738}
+}
+```
