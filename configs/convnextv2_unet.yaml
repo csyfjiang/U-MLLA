@@ -1,0 +1,15 @@
+MODEL:
+  TYPE: convnextv2_unet
+  NAME: ConvNextV2_UNet
+  DROP_PATH_RATE: 0.2
+  PRETRAIN_CKPT: '../pretrained_ckpt/convnextv2_tiny_1k_224_ema.pt'
+  CONVNEXTV2:
+    IN_CHANS: 3
+    EMBED_DIM: 96
+    DEPTHS: [ 3, 3, 9, 3 ]
+    DEPTHS_DECODER: [ 1, 9, 3, 3 ]
+    FINAL_UPSAMPLE: "expand_first"
+
+DATA:
+  IMG_SIZE: 224
+  BATCH_SIZE: 32

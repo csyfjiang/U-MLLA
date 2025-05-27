@@ -1,0 +1,11 @@
+MODEL:
+  TYPE: mlla
+  NAME: mlla_tiny
+  DROP_PATH_RATE: 0.2
+  MLLA:
+    EMBED_DIM: 64
+    DEPTHS: [ 2, 4, 8, 4 ]
+    NUM_HEADS: [ 2, 4, 8, 16 ]
+  PRETRAIN_CKPT: "../pretrained_ckpt/MLLA-T.pth"
+DATA:
+  BATCH_SIZE: 128
